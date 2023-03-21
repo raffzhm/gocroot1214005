@@ -3,6 +3,7 @@ package controller
 import (
 	"github.com/raffzhm/gocroot1214005/config"
 
+	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
 	"github.com/whatsauth/whatsauth"
@@ -11,6 +12,11 @@ import (
 type HTTPRequest struct {
 	Header string `json:"header"`
 	Body   string `json:"body"`
+}
+
+func Homepage(c *fiber.Ctx) error {
+	ipaddr := musik.GetIPaddress()
+	return c.JSON(ipaddr)
 }
 
 func Sink(c *fiber.Ctx) error {
