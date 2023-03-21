@@ -15,10 +15,17 @@ var MariaStringAkademik string = os.Getenv("MARIASTRINGAKADEMIK")
 
 var DBUlbimariainfo = atdb.DBInfo{
 	DBString: MariaStringAkademik,
-	DBName:   "db_ulbi",
+	DBName:   "l0i1k63m746vf6ob",
+}
+
+var DBUlbimongoinfo = atdb.DBInfo{
+	DBString: MongoString,
+	DBName:   "Chapter03",
 }
 
 var Ulbimariaconn = atdb.MariaConnect(DBUlbimariainfo)
+
+var Ulbimongoconn = atdb.MongoConnect(DBUlbimongoinfo)
 
 var Usertables = [4]whatsauth.LoginInfo{mhs, dosen, user, user1}
 
