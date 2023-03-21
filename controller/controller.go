@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"iteung/config"
+	"github.com/raffzhm/gocroot1214005/config"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
