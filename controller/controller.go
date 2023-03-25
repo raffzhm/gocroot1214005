@@ -1,17 +1,24 @@
 package controller
 
 import (
-	"github.com/raffzhm/gocroot1214005/config"
-
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
+	"github.com/raffzhm/elngbackend"
+	"github.com/raffzhm/gocroot1214005/config"
 	"github.com/whatsauth/whatsauth"
 )
+
+var Mahasiswacol = "mahasiswa"
 
 type HTTPRequest struct {
 	Header string `json:"header"`
 	Body   string `json:"body"`
+}
+
+func GetMatkulSmt3(c *fiber.Ctx) error {
+	get1 := elngbackend.GetDataMatakuliahFromKode("No Code")
+	return c.JSON(get1)
 }
 
 func Homepage(c *fiber.Ctx) error {
