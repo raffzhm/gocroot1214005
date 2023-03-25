@@ -100,6 +100,8 @@ github.com/raffzhm/elngbackend v0.0.14 h1:FXmKqSm+PrJNlt1Kf5i2lOv1/JpntDRhuxnjTf
 github.com/raffzhm/elngbackend v0.0.14/go.mod h1:Me7SKfasyP2xSYymSgGpcO3RpQ47HYIXoq/kRhB5A2g=
 github.com/raffzhm/elngbackend v0.0.15 h1:/vvp7zjS92A6jIPqNiGK4j+CJ734p141Row9mqnto+k=
 github.com/raffzhm/elngbackend v0.0.15/go.mod h1:Me7SKfasyP2xSYymSgGpcO3RpQ47HYIXoq/kRhB5A2g=
+github.com/raffzhm/elngbackend v0.0.16 h1:6QmgNzFZFZuhqYppiwjxnZe4Hf/CuDx0hnEKluF9ojY=
+github.com/raffzhm/elngbackend v0.0.16/go.mod h1:Me7SKfasyP2xSYymSgGpcO3RpQ47HYIXoq/kRhB5A2g=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.4.4 h1:8TfxU8dW6PdqD27gjM8MVNuicgxIjxpm4K7x4jp8sis=
 github.com/rivo/uniseg v0.4.4/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=
